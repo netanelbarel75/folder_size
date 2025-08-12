@@ -1,0 +1,20 @@
+[server]
+# Increase file upload limit to 2GB (2048MB)
+maxUploadSize = 2048
+
+# Increase message size limit for large responses
+maxMessageSize = 500
+
+# Enable file watcher for development
+fileWatcherType = "auto"
+
+[browser]
+# Automatically open browser when starting
+gatherUsageStats = false
+
+[theme]
+# Optional: Set a clean theme
+primaryColor = "#FF6B6B"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F0F2F6"
+textColor = "#262730"
